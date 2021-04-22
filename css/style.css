@@ -138,9 +138,15 @@ nav ul li:hover .submenu{
 .usuario i {
     font-size: 45px;
     text-decoration: none;
-    color: rgba(182, 95, 55, 0.849);
+    color: rgb(74,23,0);
     border-radius: 50%;
     padding: 5px;
+}
+
+.usuario i:hover {
+    color: rgba(182, 95, 55, 0.507);
+    transform: scale(1.2);
+    transition: all 0.5s;
 }
 
 .visor {
@@ -165,15 +171,15 @@ main {
 }
 
 .separador1{
-    margin: 30px 35% 30px;
-    height: 150px;
-    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    padding: 20px 50px;
     border: 5px solid black;
     border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url(../img/madera-fondo.jpg);
+    background: url(../img/madera-fondo.jpg) center fixed;
     /*background-color: rgba(182, 95, 55, 0.116);*/
 }
 
@@ -283,12 +289,12 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .separador1{
+    /*.separador1{
         width: 90%;
         height: 150px;
         padding: 0;
         margin: auto;   
-    }
+    }*/
 
     nav {
         display: none;
@@ -311,9 +317,9 @@ main {
         margin-right: 20px;
     }
 
-    .menu-responsivo img{
-        width: 50px;
-        height: 50px;
+    .menu-responsivo i{
+        font-size: 45px;
+        color: rgb(74,23,0);
     }
 
     .menu-usuario {
