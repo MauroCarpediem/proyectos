@@ -1,0 +1,91 @@
+#sesion {
+    width: 100%;
+    height: 900px;
+    padding-top: 100px;
+    background: url(../img/Fondo-sesion.jpg) no-repeat ;
+    display: flex;
+    align-items: center;
+}
+
+.box-sesion{
+    width: 30%;
+    height: 550px;
+    background-color: rgba(121, 69, 46, 0.788);
+    margin: auto;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.usuario {
+    margin: 10px auto;
+
+}
+
+.usuario h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.usuario img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 46%;
+}
+
+.datos-sesion {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 50px;
+}
+
+.datos-sesion label {
+    font-size: 25px;
+    color: white;
+}
+
+.datos-sesion>.user,.pass {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.datos-sesion .boton{
+    margin-top: 20px;
+}
+
+.datos-sesion a  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}  
+
+.datos-sesion a i {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+.datos-sesion a p {
+    margin: 5px;
+    color: white;
+}
+
+.datos-sesion a p:hover {
+    text-decoration: underline black;
+}

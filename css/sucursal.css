@@ -1,0 +1,125 @@
+#contenedor-mapa {
+    width: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contenedor-mapa>div {
+    margin-bottom: 30px;
+}
+
+.titulo-mapa{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-inline: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 10px;
+    border: black 5px solid;
+    background-image: url(../img/madera-fondo.jpg);
+}
+
+#contenedor-mapa div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#contenedor-mapa div h2 {
+    /*font-family: 'Amatic SC', cursive;*/
+    margin: 20px;
+    color: black;/*rgb(182, 95, 55);*/
+    font-size: 50px;
+}
+
+.mapa{
+    width: auto;
+    border-bottom: 10px solid rgb(182, 95, 55);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+
+}
+
+.mapa div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapa .direccion h2,p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.direccion {
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 5px solid black;
+    background-color: rgba(255, 255, 255, 0.747);
+}
+
+.direccion h2 {
+    /*font-family: 'Amatic SC', cursive;*/
+    font-style: italic;
+    font-size: 50px;
+    border-bottom: 2px solid rgb(182, 95, 55);
+}
+
+.direccion p {
+    font-size: 25px;
+}
+
+iframe{
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+/*mediaquerys*/
+
+@media screen and (max-width: 1311px) {
+    .mapa {
+        width: auto;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .direccion {
+        width: auto; 
+        margin: auto;
+    }
+    
+    iframe {
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 1333px) {
+    
+}
+
+@media screen  and (max-width: 786px){
+    
+}
+
+@media screen and (min-width: 760px) and (max-width: 1333px){
+    
+}
+
+
+
+
+

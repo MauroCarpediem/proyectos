@@ -1,0 +1,342 @@
+@import url(sucursal.css);
+@import url(formulario.css);
+@import url(politica.css);
+@import url(nosotros.css);
+@import url(carrusell.css);
+@import url(usuario.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Amatic SC', cursive;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinear-texto {
+    text-align: center;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    background-image: url(../img/Diseño-cabecera.png);
+    width: 100vw;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    border-bottom: 5px solid rgba(121, 69, 46, 0.644);
+    position: fixed;
+    z-index: 100;
+    font-size: 20px;
+}
+
+.logo {
+    margin: auto;
+}
+
+nav {
+    margin: auto;
+    position: relative;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+    
+}
+
+nav  ul li {
+    /*float: left;*/
+    margin-bottom: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(182, 95, 55);
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+
+nav ul li a:hover {
+    color: black;
+    border: 2px solid rgb(182, 95, 55); 
+}
+
+nav ul li:hover .submenu{
+    display: table;
+}
+
+/*submenu*/
+
+.submenu {
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+}
+
+.submenu ul{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.submenu ul li {
+    margin-top: 24px;
+}
+
+
+.logo img {
+    
+    width: 80px;
+    height: 80px;
+    margin-top: 2px;
+    border-radius: 50%;
+    transition: all 2s;
+    
+}
+
+.logo img:hover {
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+
+.menu-responsivo {
+    display: none;
+}
+
+.menu-usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usuario i {
+    font-size: 45px;
+    text-decoration: none;
+    color: rgba(182, 95, 55, 0.849);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.visor {
+    background-image: url("../img/banner.jpg");
+    width: auto;
+    height: 600px;
+}
+
+.visor div {
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 20px;
+    font-size: 20px;
+    margin-inline: 20%;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+}
+
+
+main {
+    background-image: url(../img/fondos/geometric-leaves.png);
+}
+
+.separador1{
+    margin: 30px 35% 30px;
+    height: 150px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/madera-fondo.jpg);
+    /*background-color: rgba(182, 95, 55, 0.116);*/
+}
+
+
+.separador1 h2 {
+    font-size: 50px;
+}
+
+
+.vitrina {
+    margin-inline: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.vitrina div {
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vitrina div a{
+    text-decoration: none;
+}
+
+.vitrina div article {
+    width: 300px;
+    border-bottom: 10px solid rgba(182, 95, 55, 0.644);
+    padding: 20px;
+    margin: 0;
+}
+
+.vitrina div article:hover {
+    border: 10px solid rgba(182, 95, 55, 0.644);
+    transition: all 0;
+}
+
+.vitrina div article img {
+    width: auto;
+    height: 120px;
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vitrina div article span h4{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.vitrina div article h2{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.separador2 {
+    width: auto;
+    height: 20px;
+    background-color: rgba(182, 95, 55, 0.644);
+}
+
+.final {
+    width: auto;
+    height: 200px;
+    background-image: url(../img/Diseño-cabecera.png);
+    border-bottom: 3px double gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-redes h2 {
+    color: rgb(182, 95, 55);
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+}
+
+.redes a img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.redes a img:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+.copyright h3 {
+    color: rgb(182, 95, 55);
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+}
+
+.final div {
+    margin: 10px;
+}
+
+@media  screen and (max-width: 1333px) {
+    .vitrina {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .separador1{
+        width: 90%;
+        height: 150px;
+        padding: 0;
+        margin: auto;   
+    }
+
+    nav {
+        display: none;
+    }
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .menu-responsivo{
+        display: block;
+        margin: auto;
+        margin-right: 20px;
+    }
+
+    .menu-responsivo img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu-usuario {
+        display: none;
+    }
+}
+
+@media screen  and (max-width: 786px){
+    .visor div{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1333px){
+    .vitrina {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .vitrina {
+        margin: auto;
+    }
+    
+}

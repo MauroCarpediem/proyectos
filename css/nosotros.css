@@ -1,0 +1,139 @@
+.nosotros-contenedor {
+    width: auto;
+    padding-top: 100px;
+
+}
+
+
+.titulo-nosotros h2 {
+    padding: 20px 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.equipo {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/equipo-giro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo h2{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(182, 95, 55);  
+}
+
+.equipo-texto{
+    margin: 30px 0;
+    padding: 10px;
+}
+
+.equipo-texto> h2,p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo-texto h2 {
+    width: 28%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.144);
+    border-bottom: 5px solid rgb(182, 95, 55);
+    
+}
+
+.equipo-texto p {
+    margin-inline: 15%;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border-left: 5px solid rgb(182, 95, 55);
+    border-right: 5px solid rgb(182, 95, 55);
+    border-top: 5px dashed rgb(182, 95, 55);
+    border-bottom: 5px dashed rgb(182, 95, 55);
+}
+
+.flota h2{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(182, 95, 55);
+}
+
+.flota {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/4-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flota-texto{
+    margin: 30px 0;
+    padding: 10px; 
+}
+
+.flota-texto> h2,p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flota-texto h2 {
+    width: 28%;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.144);
+    border-bottom: 5px solid rgb(182, 95, 55);
+    
+}
+
+.flota-texto p {
+    margin-inline: 15%;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border-left: 5px solid rgb(182, 95, 55);
+    border-right: 5px solid rgb(182, 95, 55);
+    border-top: 5px dashed rgb(182, 95, 55);
+    border-bottom: 5px dashed rgb(182, 95, 55);
+}
+
+.frutos-final {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/frutos-secos-banner-final.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frutos-final h2{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(182, 95, 55);
+}
